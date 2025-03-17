@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JapanHeat Motors</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <style>
+            body{
+                margin-right: 20%;
+                margin-left: 5%;
+            }
+            .logo{
+                width: 100px
+            }
+            .menu ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #ffffff;
+                
+            
+            }
+        
+            .menu li {
+                float: left;
+                border-right: 3px solid #1d1d1d;
+                border-top: 3px solid #1d1d1d;
+                border-bottom: 3px solid #1d1d1d;
+            }
+        
+            .menu li:first-child {
+                border-left: 3px solid #1d1d1d ;
+            }
+        
+            .menu li a {
+        
+                display: block;
+                color: #111111;
+                text-align: center;
+                padding: 16px;
+                text-decoration: none;
+                font-family:"Libre Franklin" ;
+            
+            }
+        
+            .menu li a:hover {
+                background-color: #7c7c7c;
+            }
+        
+            .titulo{
+                font-family: "Libre Franklin";
+            }
+            .texto{
+                font-family: "DM Sans";
+                width: 100%;
+                clear: both;
+                margin-bottom: 30px;
+                margin-top: 30px;
+            }
+        
+            .imagenes{
+                width: 100%;
+                height: 300px;
+                margin-bottom: 50px;
+            }
+        
+            .imagen{
+                float: left;
+                margin-top: 30px;
+                margin-right: 50px;
+                max-height: 300px;
+                width: auto;
+            }
+            
+            .marcas{
+                display: flex;
+                width: 100%;
+                height: 100px;
+                margin-top: 50px;
+                justify-content: center;
+            }
+        
+            .marca{
+                margin-right: 20%;
+            }
+            
+            hr{
+                clear: both;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        
+            .galeria{
+                overflow: hidden;
+                margin-bottom: 30px;
+        
+            }
+        
+            .persona{
+                float: left;
+                position: relative;
+                margin-right: 30px;
+                margin-top: 30px;
+        
+            }
+        
+            .persona img {
+                display: block;
+                width: 300px;
+                height: 200px;
+            }
+        
+            .nombre{
+                text-align: center;
+                font-family: "DM Sans";
+                position: absolute;
+                bottom: 0;
+                background: rgba(0, 0, 0, 0.7); 
+                color: #f1f1f1;
+                width: 100%;
+                color: white;
+            }
+            
+        
+            table{
+                margin: 30px;
+            }
+        
+            th,td{
+                font-family: "Libre Franklin";
+                border: 1px solid white;
+                padding: 10px;
+            }
+        
+            th{
+                background-color: rgb(44, 44, 44);
+                color: white;
+            }
+        
+            td{
+                background-color: rgb(178, 178, 178);
+            }
+            .video{
+                margin-left: 30px;
+            }
+            form{
+                font-family: "DM Sans";
+                margin: 30px;
+            }
+            label{
+                margin-top: 10px;
+            }
+            form div{
+                list-style: none;
+            }
+            fieldset{
+                margin-bottom: 10px;
+            }
+
+            fieldset div{
+                display: inline-block;
+                padding: 10px;
+            }
+
+            legend{
+                font-family: "DM Sans";
+                background-color: #b6b6b6;
+                
+
+            }
+            fieldset hr{
+                width: 80%;
+            }
+
+            footer {
+                font-family: "DM Sans";
+                font-size: medium ;
+                margin-bottom: 50px;
+                
+                
+            }
+            footer div{
+                height: max-content;
+                width: max-content;
+                background-color: #e1e1e1;
+            }
+
+
+            .social{
+                float: left;
+                display: grid;
+                align-items: center;
+                grid-template-columns: 35px 155px 155px;
+                padding-right: 30px;
+            }
+
+            .sociallogo{
+                width: 30px;
+            }
+            
+            
+    
+        </style>
+    </head>
+
+    <body>
+        <div><img  class="logo" src="https://img.freepik.com/premium-vector/premium-japanese-jdm-90-s-sport-car-vector-illustration-best-automotive-tshirt-design_289688-12.jpg?semt=ais_hybrid" alt="logo" ></div>
+        <div class="menu"><div><div>
+                <ul>
+                    <li><a href="#home" title="Inicio">Inicio</a></li>
+                    <li><a href="#who" title="¿Quienes somos?">¿Quienes somos?</a></li>
+                    <li><a href="#prods" title="Productos y Servicios">Productos y Servicios</a></li>
+                    <li><a href="#contact" title="Contacto">Contacto</a></li>
+                    <li><a href="#work" title="Trabaja con nosotros">Trabaja con nosotros</a></li>
+                </ul>
+        </div></div></div>
+        <div id="home">
+            <div class="titulo"><div ><h1>
+                JapanHeat Motors
+            </h1></div></div>
+            <div class="texto">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+            <div class="imagenes">
+                <img class="imagen" src="https://www.motortrend.com/uploads/2022/07/1993-nissan-s13-kis-front-viewt.jpg" alt="Nissan S13" >
+                <img class="imagen" src="https://images.pexels.com/photos/29306805/pexels-photo-29306805/free-photo-of-classic-jdm-cars-at-tokyo-meet.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="JDM" >
+            </div>
+            <div class="texto">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+            <div class="marcas">
+                <img class="marca" src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Mitsubishi_logo.svg" alt="Mitsubishi logo" >
+                <img class="marca" src="https://www.svgrepo.com/show/446894/mazda.svg" alt="Mazda logo" >
+                <img class="marca" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Toyota_logo_%28Red%29.svg/950px-Toyota_logo_%28Red%29.svg.png" alt="Toyota logo" >
+            </div>
+            <br>
+        </div>
+
+        <br> <hr> <br>
+
+        <div id="who">
+            <div class="titulo"><h1>
+                ¿Quienes somos?
+            </h1></div>
+
+            <div class="texto">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+            <div class="galeria">
+                <div class="persona">
+                    <img src="https://st4.depositphotos.com/2208684/30213/i/450/depositphotos_302139812-stock-photo-portrait-shot-smiling-businessman-wearing.jpg" alt="Gerente">
+                    <div class="nombre"> <b>Raul Pérez</b> <br> Gerente </div>
+                </div>
+                <div class="persona">
+                    <img src="https://img.freepik.com/foto-gratis/mecanico-sonriente-brazos-cruzados-llave-inglesa_1170-1699.jpg?semt=ais_hybrid" alt="Mecánico jefe">
+                    <div class="nombre"> <b>Juan Manuel Peña</b> <br> Mecánico jefe</div>
+                </div>
+                <div class="persona">
+                    <img src="https://img.freepik.com/foto-gratis/mecanico-automoviles-sonriente-llave-pie-manos-dobladas-sobre-fondo-blanco_662251-2939.jpg" alt="Mecánico">
+                    <div class="nombre"> <b>Jose Miguel Rodriguez</b> <br> Mecánico </div>
+                </div>
+                <div class="persona">
+                    <img src="https://img.freepik.com/foto-gratis/retrato-hermoso-mujer-joven-posicion-pared-gris_231208-10760.jpg" alt="Tecnica electrónica">
+                    <div class="nombre"> <b>Emilia García</b> <br> Técnica electrónica </div>
+                </div>
+                <div class="persona">
+                    <img src="https://www.shutterstock.com/image-photo/happy-hotel-manager-working-reception-260nw-2441452387.jpg" alt="Recepcionista">
+                    <div class="nombre"> <b>Jorge Vazquez</b> <br> Recepcionista</div>
+                </div>
+                <div class="persona">
+                    <img src="https://st4.depositphotos.com/1662991/41953/i/450/depositphotos_419534436-stock-photo-cute-woman-working-administrative-assistant.jpg" alt="Administrativa">
+                    <div class="nombre"> <b>Teresa Villena</b> <br> Administrativa </div>
+                </div>
+            </div>
+            <div class="videocorp">
+                <iframe width="1013" height="520" src="https://www.youtube.com/embed/gvHQZKAD874?mute=1" title="Video corporativo"></iframe> 
+            </div>    
+        </div>
+
+        <br> <hr> <br>
+
+        <div id="prods">
+            <div class="titulo"><h1>
+                Productos y servicios
+            </h1></div>
+            <div class="texto">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+            <div>
+                <table>
+                    <tr>
+                        <th> Marca </th>
+                        <th> Modelo </th>
+                        <th> Cambios realizados </th>
+                    </tr>
+                    <tr>
+                        <td> Mitsubishi </td>
+                        <td> Lancer EVO X </td>
+                        <td> Cambio de sistema de escape </td>
+                    </tr>
+                    <tr>
+                        <td> Nissan </td>
+                        <td> GTR34 </td>
+                        <td> Actualización de suspensión </td>
+                    </tr>
+                    <tr>
+                        <td> Toyota </td>
+                        <td> AE86 </td>
+                        <td> Cambio de transmisión </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="video">
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/HsVdJz-h8DY?autoplay=1&mute=1"></iframe> 
+            </div>
+        </div>
+
+        <br><hr><br>
+
+        <div id="contact">
+            <div class="titulo"><h1>
+                Contacto
+            </h1></div>
+
+            <div class="texto">
+                <b>Teléfono:</b> +34 918746239 
+                <br>
+                <b>Mail:</b> info@japanheatmotors.com
+                <br>
+                <b>Dirección:</b> Avenida de la Tuerca 23, Madrid, España
+            </div>
+            <div> 
+                <div class="titulo"><h3>Solicitud de información:</h3></div>
+                <form>
+                    
+                        <div>
+                            <label for="nombre"><b>Nombre:</b></label>
+                            <br>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="mail"><b>Mail:</b></label>
+                            <br>
+                            <input type="email" id="mail" name="mail" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="tlf"><b>Teléfono:</b></label>
+                            <br>
+                            <input type="tel" id="tlf" name="tlf">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="info"><b>¿Qué necesitas?</b></label>
+                            <br>
+                            <textarea name="info" id="info" cols="100" rows="6" placeholder="Explícanos brevemente lo que necesitas saber y contactaremos contigo lo más pronto posible"></textarea>
+                        </div>
+                        <br>
+                        <input type="submit" name="enviar" id="enviar">
+                       
+                </form>
+            </div>
+        </div>
+
+        <br><hr><br>
+
+        <div id="work">
+
+            <div class="titulo"><h1>
+                Trabaja con nosotros
+            </h1></div>
+
+            <form>
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    
+                        <div>
+                            <label for="nombreb"><b>Nombre:</b></label>
+                            <input type="text" id="nombreb" name="nombreb" required>
+                        </div>
+                        <div>
+                            <label for="apellidos"><b>Apellidos:</b></label>
+                            <input type="text" id="apellidos" name="apellidos" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="dni"><b>Dni:</b></label>
+                            <input type="text" id="dni" name="dni" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="sexo"><b>Sexo:</b></label>
+                            <select name="sexo" id="sexo" >
+                                <option value="" selected hidden disabled>Seleccione</option>
+                                <option value="mujer">Mujer</option>
+                                <option value="hombre">Hombre</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="nacimiento"><b>Fecha de nacimiento:</b></label>
+                            <input type="date" id="nacimiento" name="nacimiento">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="ciudad"><b>Ciudad:</b></label>
+                            <input type="text" id="ciudad" name="ciudad">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="nacionalidad"><b>Nacionalidad:</b></label>
+                            <input type="text" id="nacionalidad" name="nacionalidad">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="postal"><b>Código postal:</b></label>
+                            <input type="number" id="postal" name="postal"  min="0" step="10" >
+                        </div>
+                        <br>
+                        <div>
+                            <label for="tlfb"><b>Teléfono:</b></label>
+                            <input type="tel" id="tlfb" name="tlfb">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="email"><b>Email:</b></label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    
+                </fieldset>
+                <fieldset>
+                    <legend>Formación</legend>
+                    
+                        <div>
+                            <label for="titulacion1"><b>Titulación:</b></label>
+                            <input type="text" id="titulacion1" name="titulacion1">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="fechainicio1"><b>Inicio:</b></label>
+                            <input type="date" id="fechainicio1" name="fechainicio1">
+                        </div>
+                        <div>
+                            <label for="fechafinal1"><b>Finalización:</b></label>
+                            <input type="date" id="fechafinal1" name="fechafinal1">
+                        </div>
+                    
+                    <hr>
+                    
+                        <div>
+                            <label for="titulacion2"><b>Titulación:</b></label>
+                            <input type="text" id="titulacion2" name="titulacion2">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="fechainicio2"><b>Inicio:</b></label>
+                            <input type="date" id="fechainicio2" name="fechainicio2">
+                        </div>
+                        <div>
+                            <label for="fechafinal2"><b>Finalización:</b></label>
+                            <input type="date" id="fechafinal2" name="fechafinal2">
+                        </div>
+                    
+                    <hr>
+                    
+                        <div>
+                            <label for="titulacion3"><b>Titulación:</b></label>
+                            <input type="text" id="titulacion3" name="titulacion3">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="fechainicio3"><b>Inicio:</b></label>
+                            <input type="date" id="fechainicio3" name="fechainicio3">
+                        </div>
+                        <div>
+                            <label for="fechafinal3"><b>Finalización:</b></label>
+                            <input type="date" id="fechafinal3" name="fechafinal3">
+                        </div>
+                    
+                </fieldset>
+                <fieldset>
+                    <legend>Idiomas</legend>
+                    
+                        <div>
+                            <label for="idioma"><b>Idioma</b></label>
+                            <input type="text" name="idioma" id="idioma">
+                        </div>
+                        <div>
+                            <label for="hablado"><b>Hablado:</b></label>
+                            <select name="hablado" id="hablado" >
+                                <option value="" selected hidden disabled>Seleccione</option>
+                                <option value="excelente">Excelente</option>
+                                <option value="bien">Bien</option>
+                                <option value="Nada">Regular</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="leido"><b>Leído:</b></label>
+                            <select name="leido" id="leido" >
+                                <option value="" selected hidden disabled>Seleccione</option>
+                                <option value="excelente">Excelente</option>
+                                <option value="bien">Bien</option>
+                                <option value="Nada">Regular</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="escrito"><b>Escrito:</b></label>
+                            <select name="escrito" id="escrito" >
+                                <option value="" selected hidden disabled>Seleccione</option>
+                                <option value="excelente">Excelente</option>
+                                <option value="bien">Bien</option>
+                                <option value="Nada">Regular</option>
+                            </select>
+                        </div>
+                        
+                    
+                </fieldset>
+                <input type="submit">
+            </form>
+
+        </div>
+
+        <footer>
+            <div class="pie">
+                <div>Tambien podras encontrarnos en: </div>
+                <br>
+                <div>
+                    <div class="social"><img class="sociallogo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAABWVBMVEVyHVFHcEx0Fvp8Fv1yFP1/FfyLCOyfBOmtAeS7AuDHAd3UANjZAs7rD6xyFvzjANTqAMHoA7l2F/yPFfx8GPmfD/zFF/XVWujoZuLyZt3pRt/yGdHyA8j1AKTViPj/9Pr////8g9f9A7r3DZz5vO794Pf+ruj9B6uzFPv7JLv+AJr+BI/+YMP/1vD+AIThG+n9GZn/vd3/YZz+AXP+GoT/r8r+AmT/b5z+HHH+I3f+G2P/ur7+FFD+Klb+fYv/wcr+LUf+LWX+AFn+Nzr+Ohz+RT7+inP+Si7/ztD+TxL/zbv+Wy//9fH+WgL+c1X+ZyX+PUv+Bzv+VXD+cxr/6eL+aQT+eAX+nDj+gwD+gxH+fSL+rYn+jwD+iwL+XhX/3rn/1bH9ZR/+lwP+nwH+xHH8ZC3+qAH+sAD+wAP+x1P+zGb+pl79mQn+uAD9J3T+ygD9O1n8pRL9twuaEkMNAAAAc3RSTlMBAF3G///////////GW9j//9nY/1r///////////7//////8b/////////////////////////////////////////////////////////////////////////////////xf///1v////////Y/9j/2VzGSus+GgAAAeNJREFUeAFFjEWiU0EQRc/tqu74V9wZ4TBiB6wG3wpzVoQ7zHCXeELypHH+KVchJAESaEs0IUv0Zv+7fwLgSAOk9ZFghcnfDw4AAg18cyhWCKNVob9NCZjQLWVrEGhJbJGDoCBpMwCrJTETAKBWgdeRGb4dmJW56PdI/KU1K4X15N+AFsW0+3/WVm7Pa0Pmu4Fh7HcbRIjMIhr3FItUGAH4SNZKjK32YjKpK3Iv0yUY0b8g0Vs0oK+8wbeyMBAQwVeo44R1z7XWq6rqpn5jiTmAeQO3iceg9zkYzKvc71iEmMFbqCJJ4tDcKFrLjX5D/MEdq8GpIUUgd/tgGboTgiUDPDZ44SXNpr0gWRcAgqEmEPJRNVPOxYaOth0oAHdCxWoOzslH+RCvlafYMgFUHvAIHoCjz16io80BrH/j0AAcJ9KWKkhn5sRyGjsDtr/sqyrsWNO1cW9/cDNLZgHLSzVvn+wMq9qbKKwy7TiIaKTW56pzW6Oa+N1OKEQdvvl2RyOE4DEOZurd1cHNeab27tyjOPfhFlucXP04ovF97B6jTOzdJwFLaNAff7N6c8incH1VpiSR67q2VgjzUU7JgbMTiQtFKmgAsCAuczlflmVZn7iGBFc1awB/p4tqUS3LDb8OPwBrSrZIO/KHZwAAAABJRU5ErkJggg==" alt="Instagram logo"> @japanheatmotors</div>
+                    <div class="social"><img class="sociallogo" src="https://images.icon-icons.com/1211/PNG/512/1491579583-yumminkysocialmedia02_83111.png" alt="Twitter logo"> @japanheatmotors</div>
+                    <div class="social"><img class="sociallogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/600px-Facebook_Logo_%282019%29.png" alt="Facebook logo"> JapanHeat Motors</div>
+                </div>  
+            </div>
+            
+        </footer>
+
+    </body>
+
+    
+</html>
